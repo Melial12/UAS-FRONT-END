@@ -1,0 +1,76 @@
+/* Add this CSS to a separate file, for example, styles.css */
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .form-reservasi {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  input,
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    background-color: #90cfe7;
+    color: white;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #455da0;
+  }
+  
+  p {
+    color: #000000;
+  }
+  
+  /* Navigation Styles */
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ABC1E2;
+    padding: 10px;
+  }
+  
+  .nav a {
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 20px;
+  }
+  
+  /* Footer Styles */
+  .footer {
+    background-color: #ABC1E2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer p {
+    font-size: 18px;
+    color: #fff;
+  }
+  

@@ -1,0 +1,36 @@
+/* CSS untuk layar dengan lebar kurang dari 768px */
+@media (max-width: 768px) {
+    /* Tambahkan aturan CSS responsif di sini */
+    .container {
+      width: 100%;
+    }
+    .nav-link {
+      font-size: 18px;
+    }
+    /* Dan seterusnya... */
+  }
+  
+  /* CSS untuk layar dengan lebar antara 768px dan 992px */
+  @media (min-width: 768px) and (max-width: 992px) {
+    /* Tambahkan aturan CSS responsif di sini */
+    .container {
+      width: 80%;
+    }
+    .nav-link {
+      font-size: 20px;
+    }
+    /* Dan seterusnya... */
+  }
+  
+  /* CSS untuk layar dengan lebar lebih dari 992px */
+  @media (min-width: 992px) {
+    /* Tambahkan aturan CSS responsif di sini */
+    .container {
+      width: 60%;
+    }
+    .nav-link {
+      font-size: 25px;
+    }
+    /* Dan seterusnya... */
+  }
+  

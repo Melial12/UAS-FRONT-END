@@ -1,0 +1,43 @@
+{
+  "skills": [
+    {
+      "id": "1",
+      
+      "title": "Hanna ",
+      "description": "Alhamdulillah amanah, rumah saya jadi bersih berseri"
+    },
+    {
+      "id": "2",
+      
+      "title": "Adinda",
+      "description": "Tukangnya ramah banget, sukaa deh!!"
+    },
+    {
+      "id": "3",
+      
+      "title": "Rina",
+      "description": "Next bakal order di Clean Fun laagi, amanah banget."
+    },
+    {
+      "id": "4",
+      
+      "title": "Arianto",
+      "description": "Bagus, Rapi, Telaten"
+    },
+    {
+      "id": "5",
+      "title": "Susi Ana",
+      "description": "Terimakasih Clean Fun susah membersihkan dapur saya"
+    },
+    {
+      "id": "6",
+      "title": "Budi",
+      "description": "Susuai apa yang saya harapkan, bagus Clean Fun"
+    },
+    {
+      "id": "7",
+      "title": "Kyara",
+      "description": "Carpet saya jadi harum dan bersih berkat Clean Fun."
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+/* home.css */
+
+/* Styles for the container */
+.container {
+    background-color: #E1EAF2;
+    width: 100%;
+    min-height: 100vh;
+  }
+  
+  /* Styles for the navigation */
+  .nav {
+    display: flex;
+    justify-content: center;
+    background-color: #ABC1E2;
+  }
+  
+  .nav-link {
+    color: #000000;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 0 20px;
+  }
+  
+  /* Styles for the content container */
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  /* Styles for the icon */
+  .icon {
+    width: 100%; /* Menggunakan persen untuk responsif */
+    max-width: 603px; /* Batasi lebar maksimum */
+    height: auto; /* Atur tinggi ke "auto" agar rasio aspek tetap terjaga */
+    border-radius: 45px;
+    margin: 50px 0;
+  }
+  
+  /* Styles for the content */
+  .content {
+    padding: 20px;
+    max-width: 90%; /* Menggunakan persen untuk responsif */
+  }
+  
+  .title {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .logo {
+    width: 100%; /* Menggunakan persen untuk responsif */
+    max-width: 500px; /* Batasi lebar maksimum */
+    height: auto; /* Atur tinggi ke "auto" agar rasio aspek tetap terjaga */
+  }
+  
+  .sub-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .button {
+    font-size: 24px;
+    padding: 10px 20px;
+    background-color: #0088cc;
+    color: #ffffff;
+    border-radius: 10px;
+    text-decoration: none;
+  }
+  
+  /* Styles for the footer */
+  .footer {
+    background-color: #ABC1E2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+  }
+  
+  .footer-text {
+    font-size: 18px;
+    color: #FFFFFF;
+  }
+  

@@ -1,0 +1,20 @@
+/* Mobile-first responsive styles */
+@media (max-width: 767px) {
+    .frme1 {
+      display: none;
+    }
+    .frame2 {
+      width: 100%;
+    }
+  }
+  
+  /* Tablet and desktop styles */
+  @media (min-width: 768px) {
+    .frme1 {
+      display: block;
+    }
+    .frame2 {
+      width: 50%;
+    }
+  }
+  

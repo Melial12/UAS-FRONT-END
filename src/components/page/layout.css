@@ -1,0 +1,29 @@
+/* Add this to your styles.css or App.css file */
+
+/* Loading component styles */
+.loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #3498db; /* Use your desired shade of blue */
+  }
+  
+  .loading-img {
+    /* Add any additional styles for your loading image */
+    max-width: 70px;
+    max-height: 70px;
+  }
+  
+  /* Layout component styles */
+  /* Add any global styles or specific styles for your Layout component here */
+  
+  /* Example global styling */
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* You can customize the styles based on your project requirements */
+  

@@ -1,0 +1,267 @@
+/* login.css */
+
+/* LOGIN */
+.login-page {
+  width: 100vw; /* 100% of the viewport width */
+  height: 100vh; /* 100% of the viewport height */
+  background: #97b9d8;
+  display: flex;
+  align-items: center;
+}
+
+
+a {
+    color: #000;
+    text-transform: inherit;
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+a, button, input[type="submit"] {
+    cursor: pointer;
+}
+.frame2{
+  justify-content: center;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+.loginpoto{
+  margin-top: 100px;
+  border-radius: 30px;
+  width: 700px; /* Adjust the width to your preferred size */
+  height: 700px;
+}
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-2 * var(--bs-gutter-x));
+    margin-left: calc(-2 * var(--bs-gutter-x));
+}
+.col-lg-8{
+    flex: 0 0 auto;
+    width: 66.66666667%;
+    
+}
+
+@media (min-width: 992px){
+    .offset-lg-2 {
+        margin-left: 16.66666667%;
+    }
+}
+.login-form-wrap {
+    padding: 60px 60px 40px;
+    margin-bottom: 25px;
+    margin-top: 60px;
+    margin-left: 60px; 
+} 
+
+@media only screen and (max-width: 767px){
+.login-form-wrap {
+    padding: 30px 20px 20px;
+}
+}
+
+.login-header {
+    margin: 0 0 25px;
+}
+.login-header h3 {
+    font-size: 24px;
+    margin-bottom: 0;
+}
+@media only screen and (max-width: 767px){
+.login-form-wrap .login-header h3 {
+    font-size: 20px;
+}
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    font-family: "Lexend", sans-serif;
+}
+form {
+    display: block;
+    margin-top: 0em;
+}
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+
+.login-form-wrap .login-form .form-group {
+    margin: 0 0 20px;
+}
+.login-form-wrap .login-form .form-group input {
+    background: transparent;
+    border: none;
+    background-color: #fff;
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 0;
+}
+@media only screen and (max-width: 767px){
+p, input, textarea {
+    font-size: 14px;
+}}
+input {
+    height: 50px;
+}
+.mb-20 {
+    margin-bottom: 20px !important;
+}
+.login-form-wrap .link.style1 {
+    color: #4854bd;
+}
+@media only screen and (max-width: 767px){
+.link, .btn {
+    font-size: 14px;
+}}
+.link {
+    font-weight: 700;
+    line-height: 26px;
+    display: inline-block;
+    position: relative;
+    color: #050505;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.link:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: "";
+    width: 0;
+    height: 1px;
+    background: #dfcfb6;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.login-form-wrap .link.style1 {
+    color: #0a0a0a;
+}
+@media only screen and (max-width: 767px){
+.link, .btn {
+    font-size: 14px;
+}}
+.link {
+    font-weight: 600;
+    line-height: 20px;
+    display: inline-block;
+    position: relative;
+    color: #070707;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    white-space: nowrap; /* Teks akan sebaris */
+  }
+  
+.login-form-wrap .login-form .btn {
+    padding: 15px 35px;
+}
+.btn.style1 {
+    background-color: #4b4aac;
+}
+.btn.style1:hover {
+    background-color: #f4f0f0;
+}
+@media only screen and (max-width: 767px){
+.link, .btn {
+    font-size: 14px;
+}}
+.btn {
+    display: inline-block;
+    line-height: 26px;
+    font-weight: 500;
+    text-align: center;
+    -webkit-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
+    position: relative;
+    z-index: 1;
+    border: none;
+    padding: 11px 30px 11px;
+    border-radius: 0;
+    color: #f4f0f0;
+    border: 1px solid transparent;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.btn:hover {
+    display: inline-block;
+    line-height: 26px;
+    font-weight: 500;
+    text-align: center;
+    -webkit-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
+    position: relative;
+    z-index: 1;
+    border: none;
+    padding: 11px 30px 11px;
+    border-radius: 0;
+    color: #413a99;
+    border: 1px solid transparent;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.btn:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    width: 50%;
+    height: 0;
+    visibility: hidden;
+    opacity: 0;
+    z-index: -1;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.btn:after {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    content: "";
+    width: 50%;
+    height: 0;
+    visibility: hidden;
+    opacity: 0;
+    z-index: -1;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.mb-0 {
+    margin-bottom: 0px !important;
+}
+p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.login-page {
+    position: relative;
+    background: #cddce9; /* Ganti dengan warna latar belakang yang sesuai */
+    color: #0e0d0d;
+    padding: 20px;
+    border-radius: 5px;
+    width: 100%;
+   
+  }
+  
+  .logo-container {
+    position: absolute;
+    top: 10px; /* Sesuaikan jarak dari atas */
+    right: 10px; /* Sesuaikan jarak dari kanan */
+  }
+  
+  .cf-logo {
+    width: 200px; /* Sesuaikan ukuran gambar */
+    height: 200px;
+  }
+  
